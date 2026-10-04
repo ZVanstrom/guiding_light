@@ -15,10 +15,10 @@ nav.addEventListener("click", (e) => {
 // Footer year
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// Contact form: submit to Formspree without leaving the page
+// Contact form (home page only): submit to Formspree without leaving the page
 const form = document.getElementById("contact-form");
-const status = form.querySelector(".form-status");
-form.addEventListener("submit", async (e) => {
+form?.addEventListener("submit", async (e) => {
+  const status = form.querySelector(".form-status");
   e.preventDefault();
   if (form.action.includes("YOUR_FORM_ID")) {
     status.textContent = "The contact form isn't connected yet. Please check back soon.";

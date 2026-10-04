@@ -91,22 +91,22 @@
         <p class="section-intro">Simple guides to help you understand the systems and services you may run into.</p>
         <div class="card-grid">
           <article class="card">
-            <h3>What to Expect at an ISP Meeting</h3>
+            <h3><a href="resources/isp-meeting-guide.html">What to Expect at an ISP Meeting</a></h3>
             <p>An easy-read guide to what an ISP meeting is, what happens during it, and how to get ready.</p>
-            <a class="btn btn-primary" href="resources/isp-meeting-guide-easy-read.pdf" download>Download free guide (PDF)</a>
+            <a class="btn btn-primary" href="resources/isp-meeting-guide.html">Read the free guide</a>
           </article>
           <article class="card">
-            <h3>From IEP to Adult Services</h3>
+            <h3><a href="resources/from-iep-to-adult-services.html">From IEP to Adult Services</a></h3>
             <p>Start thinking about the move from school-based services to adult supports.</p>
             <p class="coming-soon">Coming soon</p>
           </article>
           <article class="card">
-            <h3>Understanding Adult Services</h3>
+            <h3><a href="resources/understanding-adult-services.html">Understanding Adult Services</a></h3>
             <p>Learn the words, services, and resources you may come across.</p>
             <p class="coming-soon">Coming soon</p>
           </article>
           <article class="card">
-            <h3>Questions Families Should Ask</h3>
+            <h3><a href="resources/questions-families-should-ask.html">Questions Families Should Ask</a></h3>
             <p>A practical list of questions for service coordinators, providers, and other professionals.</p>
             <p class="coming-soon">Coming soon</p>
           </article>
@@ -175,6 +175,8 @@
         <p class="section-intro">We're here to help point you toward resources and information.</p>
         <!-- TODO: replace YOUR_FORM_ID with a Formspree form ID (https://formspree.io) -->
         <form id="contact-form" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <input type="hidden" name="_subject" value="New message from the Guiding Hope website">
+          <input type="text" name="_gotcha" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="field">
             <label for="name">Your name</label>
             <input id="name" name="name" type="text" autocomplete="name" required>
@@ -199,6 +201,7 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" rows="5" required></textarea>
           </div>
+          <p class="small">We only use your information to reply to you. See our <a href="privacy.html">Privacy Policy</a>.</p>
           <button class="btn btn-primary" type="submit">Send message</button>
           <p class="form-status" role="status" aria-live="polite"></p>
         </form>
@@ -236,6 +239,7 @@
         <li><a href="https://www.facebook.com/" rel="noopener" target="_blank">Facebook</a></li>
         <li><a href="https://www.instagram.com/" rel="noopener" target="_blank">Instagram</a></li>
       </ul>
+      <p class="small"><a href="privacy.html">Privacy Policy</a> · <a href="refunds.html">Refund Policy</a></p>
       <p class="small">&copy; <span id="year"></span> Guiding Hope Resource Center</p>
     </div>
   </footer>

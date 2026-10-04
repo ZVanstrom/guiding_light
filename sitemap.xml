@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Add each new resource page here once it has real content (placeholder pages are noindex and left out).
+     If the site moves to a custom domain, replace the base URL below and in robots.txt. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://zvanstrom.github.io/guiding_light/</loc><lastmod>2026-10-04</lastmod></url>
+  <url><loc>https://zvanstrom.github.io/guiding_light/resources/isp-meeting-guide.html</loc><lastmod>2026-10-04</lastmod></url>
+  <url><loc>https://zvanstrom.github.io/guiding_light/privacy.html</loc><lastmod>2026-10-04</lastmod></url>
+  <url><loc>https://zvanstrom.github.io/guiding_light/refunds.html</loc><lastmod>2026-10-04</lastmod></url>
+</urlset>
