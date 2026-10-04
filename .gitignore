@@ -1,0 +1,5 @@
+# Proprietary material (paid products, client notes, ideas). Never published.
+private/
+
+.DS_Store
+.claude/
