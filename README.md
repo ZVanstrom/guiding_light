@@ -23,6 +23,6 @@ Repo → Settings → Pages → Source: **Deploy from a branch** → `main` / `(
 2. In `index.html`, copy an existing `<article class="card">` in `#free-resources` and point its button at the PDF.
 
 ## Still to connect
-- Workbook checkout link: the `data-checkout` button in `#shop`
+- Workbook checkout: Stripe Payment Link in `#shop` is a TEST link. Swap in the live-mode link before launch. PDFs are emailed manually after each sale.
 - Contact form: replace `YOUR_FORM_ID` with a [Formspree](https://formspree.io) form ID
 - Facebook / Instagram URLs in the footer

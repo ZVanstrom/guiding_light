@@ -15,16 +15,6 @@ nav.addEventListener("click", (e) => {
 // Footer year
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// Placeholder checkout link until a real one is set in index.html
-document.querySelectorAll("[data-checkout]").forEach((link) => {
-  if (link.getAttribute("href") === "#") {
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-      alert("The workbook will be available soon. Please use the contact form to be notified.");
-    });
-  }
-});
-
 // Contact form: submit to Formspree without leaving the page
 const form = document.getElementById("contact-form");
 const status = form.querySelector(".form-status");
