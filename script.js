@@ -38,3 +38,6 @@ form?.addEventListener("submit", async (e) => {
     status.textContent = "Sorry, something went wrong. Please try again in a moment.";
   }
 });
+
+// "Print this guide" buttons
+document.querySelectorAll("[data-print]").forEach((btn) => btn.addEventListener("click", () => window.print()));

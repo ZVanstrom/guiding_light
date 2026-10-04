@@ -25,7 +25,7 @@ Repo → Settings → Pages → Source: **Deploy from a branch** → `main` / `(
 Each resource has its own page in `resources/` so Google can find it.
 
 1. Put the PDF in `resources/` (short lowercase-with-dashes name).
-2. Copy `resources/isp-meeting-guide.html` to `resources/<slug>.html` and replace the title, description and content. Or fill in one of the placeholder pages: replace every `class="blank"` element and delete its `noindex` meta tag.
+2. Copy `resources/isp-meeting-guide.html` to `resources/<slug>.html` and replace the title, description and content.
 3. Link it from a card in `#free-resources` in `index.html`.
 4. Add its URL to `sitemap.xml`.
 
