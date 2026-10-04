@@ -31,5 +31,5 @@ Each resource has its own page in `resources/` so Google can find it.
 
 ## Still to connect
 - Workbook checkout: Stripe Payment Link in `#shop` is a TEST link. Swap in the live-mode link before launch. PDFs are emailed manually after each sale.
-- Contact form: replace `YOUR_FORM_ID` with a [Formspree](https://formspree.io) form ID
+- Contact form: Formspree form `mnpjayde` (messages go to the account email; change in Formspree, not here)
 - Facebook / Instagram URLs in the footer
